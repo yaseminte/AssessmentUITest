@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="61.588">
+    <testcase classname="N11 Favori Urun Senaryosu" name="Kullanici login olduktan sonra istenen urunu favorilere ekler, siler ve cikis yapar" time="61.404">
+        <system-out><![CDATA[Given Kullanici n11 sitesine gider..........................................passed
+When Kullanici anasayfanin acildigini dogrular..............................passed
+And Kullanici gecerli bilgilerle uye girisi yapar...........................passed
+Then Kullanici basarili bir sekilde login oldugunu dogrular.................passed
+And Kullanici arama sekmesinden "Iphone" aratir.............................passed
+Then Kullanici arama sonuclarindan "Iphone" aratildigini dogrular...........passed
+And Kullanici arama sonuc sayfasindan 2. sayfayi tiklar.....................passed
+Then Kullanici 2. sayfanin acildigini dogrular..............................passed
+And Kullanici sayfadaki 3. urunu favorilerine ekler.........................passed
+And Kullanici favorilerim linkine tiklar....................................passed
+Then Kullanici favorilerim sayfasinda oldugunu dogrular.....................passed
+And Kullanici eklenen urunu favorilerden siler..............................passed
+Then Kullanici urununun silindigini dogrular................................passed
+And Kullanici uye cikis islemi yapar........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
