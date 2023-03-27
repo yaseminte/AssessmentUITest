@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="61.588">
-    <testcase classname="N11 Favori Urun Senaryosu" name="Kullanici login olduktan sonra istenen urunu favorilere ekler, siler ve cikis yapar" time="61.404">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="65.914">
+    <testcase classname="N11 Favori Urun Senaryosu" name="Kullanici login olduktan sonra istenen urunu favorilere ekler, siler ve cikis yapar" time="65.75">
         <system-out><![CDATA[Given Kullanici n11 sitesine gider..........................................passed
 When Kullanici anasayfanin acildigini dogrular..............................passed
 And Kullanici gecerli bilgilerle uye girisi yapar...........................passed
