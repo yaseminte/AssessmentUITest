@@ -18,7 +18,7 @@ properties dosyası key =  value olarak oluşturulmaktadır. Sürekli kullandı�
 ## TestRunner & Feature
 
 TestRunner classından çalıştırmak istediğimiz feature’ın tag name’ini girerek kodumuzu çalıştırabileceğimiz gibi doğrudan feature dosyasından da testimizi çalıştırabiliriz. 
-Test koşumu bittikten sonra projemizde oluşan target dosyası içerisinden cucumber.reports.html dosyasına sağ tıklayıp open in -> Browser -> adımlarını takip ederek istediğimiz browser üzerinden teste ait raporları ve ekran görüntülerine ulaşabiliriz. 
+Test koşumu bittikten sonra projemizde oluşan target dosyası içerisinden cucumber.reports.html dosyasına sağ tıklayıp open in -> Browser -> adımlarını takip ederek istediğimiz browser üzerinden teste ait raporlara ve ekran görüntülerine ulaşabiliriz. 
 
 
 
