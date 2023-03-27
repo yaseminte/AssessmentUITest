@@ -11,6 +11,10 @@ OOP(Object Oriented Programming) konseptine uyarak POM(Page Object Model) dizayn
 
 Utilities dosyamızda bize sürekli lazım olan classlarımız ve methodlarımız bulunmaktadır.
 
+## pom.xml 
+
+Pom sayesinde tüm çalışmalarımızın ve kodlara ait bilgilerin bulunduğu bu dosyada kullanmak istediğimiz kodların kütüphanesini dependencies tagının içerisine yerleştirip güncel bilgileri sürekli olarak kendimizde tutabiliriz. Burası sayesinde tüm kodlara erişimi sağlayabiliriz.
+
 ## Configuration.properties
 
 properties dosyası key =  value olarak oluşturulmaktadır. Sürekli kullandığımız key-valueları burada saklarız. Buradaki bilgileri başka classlara çağırabilmek için utilities dosyasından ConfigReader classından yardım alırız. Config.reader classı içindeki method sayesinde bu dosyada bulunan bilgileri istediğimiz yere getirerek kullanmamızı sağlar. 
