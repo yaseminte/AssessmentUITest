@@ -2,7 +2,7 @@
 
 "https://www.n11.com/" sitesine üye girişi yapılarak istenen ürün favorilere eklendi, silindi ve üye çıkış işlemi gerçekleştirildi. UI otomasyonu için Selenium WebDriver kullanıldı.
 
-Programlama dili olarak Java, build tool olarak Maven, framework olarak Cucumber BDD, dependencies olarak Selenium.java, JUnit, raporlama aracı olarak Cucumber Reporting, IDE olarak Intellij kullanıldı. Cucumber BDD(Behaviour Driven Development-Davranış Tabanlı Geliştirme) yaklaşımı için kullanılmakta olan açık kaynak kodlu bir kütüphanedir.
+Programlama dili olarak Java, build tool olarak Maven, framework olarak Cucumber BDD, dependencies olarak Selenium.java, JUnit, raporlama aracı olarak Cucumber Reporting, IDE olarak Intellij kullanıldı. Cucumber BDD(Behaviour Driven Development-Davranış Tabanlı Geliştirme) yaklaşımı için kullanılmakta olan açık kaynak kodlu bir kütüphanedir. Cucumber frameworku intellij üzerinde kullanabilmek için File -> Settings -> Plugins tıklanarak "cucumber for java" ve "Gherkin" pluginlerinin kurulması gerekir.
 
 
 OOP(Object Oriented Programming) konseptine uyarak POM(Page Object Model) dizayn modeline göre tasarlandı.
