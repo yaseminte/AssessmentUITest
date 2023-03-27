@@ -7,9 +7,10 @@ Programlama dili olarak Java, build tool olarak Maven, framework olarak Cucumber
 
 OOP(Object Oriented Programming) konseptine uyarak POM(Page Object Model) dizayn modeline göre tasarlandı.
 
-## Utilities dosyası
+## Utilities & Pages 
 
-Utilities dosyamızda bize sürekli lazım olan classlarımız ve methodlarımız bulunmaktadır.
+Utilities dosyamızda bize sürekli lazım olan classlarımız ve methodlarımız bulunmaktadır. >br/>
+Webelementlere ait locatelerimiz Pages dosyasında bulunmaktadır.
 
 ## pom.xml 
 
