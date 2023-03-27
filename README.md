@@ -9,8 +9,7 @@ OOP(Object Oriented Programming) konseptine uyarak POM(Page Object Model) dizayn
 
 ## Utilities & Pages 
 
-Utilities dosyamızda bize sürekli lazım olan classlarımız ve methodlarımız bulunmaktadır. >br/>
-Webelementlere ait locatelerimiz Pages dosyasında bulunmaktadır.
+Utilities dosyasında bize sürekli lazım olan classlarımız ve methodlarımız,  Pages dosyasında ise webelementlere ait locatelerimiz bulunmaktadır.
 
 ## pom.xml 
 
