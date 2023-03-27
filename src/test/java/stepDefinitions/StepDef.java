@@ -58,13 +58,8 @@ public class StepDef {
 
     @And("Kullanici arama sonuc sayfasindan {int}. sayfayi tiklar")
     public void kullanici_arama_sonuc_sayfasindan_sayfayi_tiklar(Integer sayfa) {
-        int sayfaSirasi = sayfa - 1;
-        actions.sendKeys(Keys.END).perform();
-        ReusableMethods.waitFor(10);
-        actions.sendKeys(Keys.PAGE_UP).sendKeys(Keys.PAGE_UP).perform();
-        ReusableMethods.waitFor(10);
-        ReusableMethods.jsClick(n11Page.sayfalar.get(sayfaSirasi));
-        ReusableMethods.waitFor(5);
+
+        ReusableMethods.arananSayfayaTikla(sayfa);
 
     }
 

@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.N11Page;
 
 import java.io.File;
 import java.io.IOException;
@@ -173,4 +174,19 @@ public class ReusableMethods {
         return destination.toString();
     }
 
+    public static void arananSayfayaTikla(int sayfa){
+        Actions actions = new Actions(Driver.getDriver());
+        N11Page n11Page = new N11Page();
+        int sayfaSirasi = sayfa - 1;
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(2);
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(2);
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(2);
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(5);
+        ReusableMethods.jsClick(n11Page.sayfalar.get(sayfaSirasi));
+        ReusableMethods.waitFor(5);
+    }
 }
